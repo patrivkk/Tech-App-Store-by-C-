@@ -1,0 +1,237 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\VTCA\\SEM1\\OOAD\\code\\ConsolePL\\ConsolePL.csproj": {}
+  },
+  "projects": {
+    "E:\\VTCA\\SEM1\\OOAD\\code\\BL\\BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VTCA\\SEM1\\OOAD\\code\\BL\\BL.csproj",
+        "projectName": "BL",
+        "projectPath": "E:\\VTCA\\SEM1\\OOAD\\code\\BL\\BL.csproj",
+        "packagesPath": "C:\\Users\\Hoa Nguyen\\.nuget\\packages\\",
+        "outputPath": "E:\\VTCA\\SEM1\\OOAD\\code\\BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hoa Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\VTCA\\SEM1\\OOAD\\code\\DAL\\DAL.csproj": {
+                "projectPath": "E:\\VTCA\\SEM1\\OOAD\\code\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\VTCA\\SEM1\\OOAD\\code\\ConsolePL\\ConsolePL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VTCA\\SEM1\\OOAD\\code\\ConsolePL\\ConsolePL.csproj",
+        "projectName": "ConsolePL",
+        "projectPath": "E:\\VTCA\\SEM1\\OOAD\\code\\ConsolePL\\ConsolePL.csproj",
+        "packagesPath": "C:\\Users\\Hoa Nguyen\\.nuget\\packages\\",
+        "outputPath": "E:\\VTCA\\SEM1\\OOAD\\code\\ConsolePL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hoa Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\VTCA\\SEM1\\OOAD\\code\\BL\\BL.csproj": {
+                "projectPath": "E:\\VTCA\\SEM1\\OOAD\\code\\BL\\BL.csproj"
+              },
+              "E:\\VTCA\\SEM1\\OOAD\\code\\Persistence\\Persistence.csproj": {
+                "projectPath": "E:\\VTCA\\SEM1\\OOAD\\code\\Persistence\\Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\VTCA\\SEM1\\OOAD\\code\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VTCA\\SEM1\\OOAD\\code\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "E:\\VTCA\\SEM1\\OOAD\\code\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Hoa Nguyen\\.nuget\\packages\\",
+        "outputPath": "E:\\VTCA\\SEM1\\OOAD\\code\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hoa Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\VTCA\\SEM1\\OOAD\\code\\Persistence\\Persistence.csproj": {
+                "projectPath": "E:\\VTCA\\SEM1\\OOAD\\code\\Persistence\\Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "mysql.data": {
+              "target": "Package",
+              "version": "[8.0.30, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\VTCA\\SEM1\\OOAD\\code\\Persistence\\Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VTCA\\SEM1\\OOAD\\code\\Persistence\\Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "E:\\VTCA\\SEM1\\OOAD\\code\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\Hoa Nguyen\\.nuget\\packages\\",
+        "outputPath": "E:\\VTCA\\SEM1\\OOAD\\code\\Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hoa Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+E:\VTCA\SEM1\OOAD\code\Persistence\bin\Debug\net6.0\Persistence.deps.json
+E:\VTCA\SEM1\OOAD\code\Persistence\bin\Debug\net6.0\Persistence.dll
+E:\VTCA\SEM1\OOAD\code\Persistence\bin\Debug\net6.0\Persistence.pdb
+E:\VTCA\SEM1\OOAD\code\Persistence\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
+E:\VTCA\SEM1\OOAD\code\Persistence\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\VTCA\SEM1\OOAD\code\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfoInputs.cache
+E:\VTCA\SEM1\OOAD\code\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfo.cs
+E:\VTCA\SEM1\OOAD\code\Persistence\obj\Debug\net6.0\Persistence.csproj.CoreCompileInputs.cache
+E:\VTCA\SEM1\OOAD\code\Persistence\obj\Debug\net6.0\Persistence.dll
+E:\VTCA\SEM1\OOAD\code\Persistence\obj\Debug\net6.0\refint\Persistence.dll
+E:\VTCA\SEM1\OOAD\code\Persistence\obj\Debug\net6.0\Persistence.pdb
+E:\VTCA\SEM1\OOAD\code\Persistence\obj\Debug\net6.0\ref\Persistence.dll
